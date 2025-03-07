@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background: url('back45.jpeg') no-repeat center center/cover;
+            color: white;
+        }
+
+        .confirmation-container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            max-width: 400px;
+        }
+
+        h1 {
+            font-family: 'Lobster', cursive;
+            font-size: 2.5rem;
+            color: #ffcc00;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .menu-button {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #ffcc00;
+            color: black;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .menu-button:hover {
+            background: #e6b800;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+
+            .confirmation-container {
+                box-shadow: none;
+                border: 2px solid black;
+            }
+
+            h1 {
+                color: black;
+            }
+
+            .menu-button {
+                display: none; /* Hide button when printing */
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="confirmation-container">
+        <h1>Order Confirmed!</h1>
+        <p>Thank you for your order. Please wait a few minutes while we prepare your delicious meal.</p>
+        <a href="menu.html" class="menu-button">Go to Menu</a>
+    </div>
+</body>
+</html>
