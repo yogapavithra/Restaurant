@@ -1,3 +1,7 @@
+#index,html{
+    height: 100%;
+    overflow-x: hidden;
+}
 #index {
     margin: 0;
     padding: 0;
@@ -14,11 +18,12 @@
     flex-wrap: wrap;
     gap: 15px;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    position: absolute;
 }
 
 .navbar a {
@@ -35,7 +40,7 @@
 
 /* Hero Section */
 .hero {
-    margin-top: 100px;
+    margin-top: 120px;
     padding: 20px;
 }
 
@@ -57,9 +62,9 @@
  */
 /* Image Slider */
 .slider {
-    width: 800px;
+    width: 90%;
 /*     max-width: 400px;
- */    height: 300px;
+ */    height: auto;
     overflow: hidden;
     position: relative;
     margin: 30px auto;
@@ -131,7 +136,7 @@
 
     .social-icons img {
         width: 35px;
-        max-height: 200px;
+        max-height: 180px;
     }
 }
 /* Menu
