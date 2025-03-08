@@ -20,11 +20,11 @@
 /* Navigation Bar */
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
      align-items: center;
     flex-wrap: wrap;
-    gap: 15px;
-    padding: 15px 20px;
+    gap: 10px;
+    padding: 10px;
     background: rgba(0, 0, 0, 0.8);
     position: fixed;
     width: 100%;
@@ -33,11 +33,6 @@
     z-index: 1000;
     position: absolute;
 }
- .logo-home{
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffcc00;
- }
  #menu-toggle{
     display: none;
  }
@@ -53,7 +48,7 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    padding: 8px 12px;
+    padding: 10px;
 }
 
 .navbar a:hover {
@@ -313,6 +308,7 @@
     margin-top: 10px;
       text-align: center;
       position: relative;
+      padding: 15px;
 }
 
 #about{
