@@ -22,17 +22,17 @@
     display: flex;
     justify-content: space-between;
      align-items: center;
-/*     flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 15px;
- */    padding: 15px 20px;
+    padding: 15px 20px;
     background: rgba(0, 0, 0, 0.8);
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-/*     z-index: 1000;
+    z-index: 1000;
     position: absolute;
- */}
+}
  .logo-home{
     font-size: 24px;
     font-weight: bold;
