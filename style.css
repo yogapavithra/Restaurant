@@ -177,13 +177,12 @@
         max-height: 180px;
     }
 }
-/* Menu
+/* menu
  */body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background: url('home4.jpeg') no-repeat center center/cover;
-    background-size: cover;
     color: white;
     text-align: center;
 }
